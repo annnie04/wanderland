@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2nd 1% - How I created my first PBI dashboard with Python script
+title: 2nd 1% - How I created my first PowerBI dashboard with Python script
 ---
 
 Thank you for visiting my blog! Today I am sharing my project focusing on 3 parts: 
@@ -87,13 +87,13 @@ print('Data pulling is completed!')
 
 ### Transform raw dataset into usable table through string operations such as str.extract, slice, replace
 
-The raw data from my search query are long messages that contains the key strings that we needed.
+The raw data from my search query are long messages that contains the key strings that we need.
 Therefore, I need to extract the key strings from each message and store them in different columns.
 
 ![image](https://github.com/annnie04/onepercent/assets/113150580/b186e004-c916-4dc5-a5c1-a3fdf1f15dad)
 
-In high level, I need a table consisting the changes of machine status in the last 24 hours.
-This is a sample of raw alarm messages that I will be looking for and below is how I prepare my dataframe.
+In high level, I'm creating a dataframe that consist of changes of machine status in the last 24 hours.
+This is a sample of raw alarm messages that I obtained and below is how I prepare my dataframe.
 
 ![image](https://github.com/annnie04/onepercent/assets/113150580/b8931baf-bf2c-4f1f-9a43-d9318a7d077e)
 
