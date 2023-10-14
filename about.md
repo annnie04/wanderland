@@ -4,10 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Good day!
-
 ### About Me
 
+Good day!\
 I am currently in a phase where my daily +1% consists of learning data science and committing to gym.
 
 ### Contact me
